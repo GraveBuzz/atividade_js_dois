@@ -17,7 +17,7 @@ function adicionarLinha(){
     const inputNumero = document.getElementById('inp-numero');
 
     if (nomes.includes(inputNome.value)) {
-        alert (`O nome ${inputNome} já está cadastrado!`)
+        alert (`O nome ${inputNome.value} já está cadastrado!`)
     } else {
         nomes.push(inputNome.value);
         numeros.push(parseFloat(inputNumero.value));
